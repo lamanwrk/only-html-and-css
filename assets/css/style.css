@@ -1,0 +1,999 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home main {
+  background-image:
+  url(../image/Vector.svg),
+  url(../image/Ellipse\ 19.svg),
+  url(../image/Ellipse\ 20.png),
+  url(../image/Ellipse\ 17.png),
+  url(../image/Ellipse\ 18.png), 
+  url(../image/Ellipse\ 21.png),
+  url(../image/Vector\ \(1\).svg),
+  url(../image/Ellipse\ 8.svg),
+  url(../image/Vector\ \(2\).svg),
+  url(../image/Ellipse\ 9.svg),
+  url(../image/Ellipse\ 10.png);
+  background-position: 0 -33px, 353px 1027px, 320px 1335px, 1000px 921px,
+    1408px 998px, 1024px 1451px, -11px 1671px, 1229px 2207px, 1071px 2127px,
+    1208px 2570px, 1374px 2367px;
+  background-repeat: no-repeat;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration-line: none;
+  cursor: pointer;
+}
+a,header,
+footer ,.border-button,.contact-sub-title,.custom-title-description{
+  color: rgba(53, 53, 53, 1);
+}
+header,footer {
+  font: normal normal 400 14px/17px "Montserrat", sans-serif;
+}
+.link , #contact_us-container, .ceo-message-container,.ceo-massege,.contact-info,.contact-container,.footer,.contact-left,.contact-right,.working-hours,.social-media-icon, .header-second-section_item ,.category-container-item,.category-container,
+.card-box, .news-container,.text,.box-wrp, .strong_car,.header-second-section , .new-car-container ,.header_address,.social-media-logo ,nav ul {
+  display: flex;
+}
+.working-hours,.contact-right,.contact-left,.ceo-message-container,.box-wrp,.category-container{
+  flex-direction: column;
+}
+.home header {
+  box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
+}
+.shadow {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+}
+.small-text {
+  font-size: 12px;
+  line-height: 14.63px;
+}
+.custom-title {
+  margin-bottom: 10px;
+  font: normal normal 700 50px/70px "Montserrat", sans-serif;
+}
+.custom-title-description {
+  margin-bottom: 30px;
+  font: normal normal 400 14px/21px "Mulish", sans-serif;
+}
+.global-padding {
+  padding: 0 60px;
+}
+.image figure {
+  padding: 18px;
+}
+.header_address {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: space-between;
+}
+.svg::after{
+  content:url(../image/Vector\ \(8\).svg);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.header_address, .see-more , .submit-button {
+  background-color: rgba(255, 192, 31, 1) !important;
+  border-color:rgba(255, 192, 31, 1) ;
+}
+.header_adress_phone-number {
+  font: normal normal 500 12px/14.63px Montserrat, sans-serif;
+}
+.social-media-logo {
+  gap: 24px;
+}
+.address_logo {
+  width: 14px;
+  height: 14px;
+  min-height: 14px;
+  min-width: 14px;
+}
+.header-second-section {
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.header-second-section_item {
+  align-items: center;
+}
+.languages {
+  font-weight: 600;
+}
+.company_logo {
+  min-height: 37px;
+  min-width: 168px;
+}
+nav ul {
+  gap: 54px;
+}
+.menu-icon {
+  display: none;
+}
+.container {
+  display: flex;
+  padding-top: 119px;
+  padding-bottom: 130px;
+}
+.container .text {
+  max-width: 50%;
+}
+.text {
+  flex-direction: column;
+  justify-content: center;
+}
+.details-button {
+  padding: 13px 55px;
+  width: 147px;
+}
+.wrp{
+  margin-right: 20px;
+}
+.border-button {
+  border: 1px solid rgba(53, 53, 53, 1);
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.excavator-img {
+  max-width: 677px;}
+h3 {
+  font: normal normal 700 30px/36.57px "Montserrat", sans-serif;
+}
+.category-container {
+  padding: 30px 0;
+}
+.category-container-item,.category-container,
+.card-box, .news-container {
+  gap: 20px;
+}
+.card-box div {
+  box-shadow: 0px 0px 15px 0px rgba(121, 121, 121, 0.25);
+  box-shadow: 0px 1px 7px 0px rgba(194, 194, 194, 0.25) inset;
+}
+.card-box p {
+  text-align: center;
+  padding: 50px 0 40px;
+  font: normal normal 600 22px/26.82px "Montserrat", sans-serif;
+}
+
+.aside-strong-car {
+  width: 420px;
+  height: 630px;
+}
+.new-car-container {
+  flex-direction: column-reverse;
+}
+.about-button {
+  padding: 13px 38px;
+}
+
+.new {
+  margin-top: 281px;
+  margin-right: 63px;
+  height: 630px;
+}
+.main-text {
+  padding: 50px 20px 20px 83px;
+  white-space: normal;
+}
+.techniques h3 {
+  margin-top: 192px;
+}
+.slide-car .swiper-wrapper .swiper-slide figure {
+  width: 315px;
+  height: 274px;
+}
+.slide-car .swiper-wrapper .swiper-slide p {
+  font: normal normal 600 18px/22px "Montserrat", sans-serif;
+}
+.slide-car .swiper-wrapper .swiper-slide {
+  margin: 30px 20px 50px 0;
+}
+.sub-title,input::placeholder{
+  color: rgba(104, 104, 104, 1);
+}
+.sub-title {
+  display: block;
+  font: normal normal 400 14px/17.57px "Mulish", sans-serif;
+}
+.year {
+  color: rgba(176, 173, 173, 1);
+}
+.box-wrp {
+  align-items: flex-end;
+  color: rgba(255, 192, 31, 1);
+  font: normal normal 600 18px/22px "Montserrat", sans-serif;
+}
+.rent-it {
+  padding: 13px 106px;
+}
+.swiper-button-next:after {
+  content: url(../image/Vector\ \(3\).svg);
+}
+.swiper-button-prev::before {
+  content: url(../image/Vector\ \(4\).svg);
+}
+.swiper-button-prev:after {
+  content: "";
+}
+.slide-car .swiper-wrapper .swiper-slide div {
+  padding: 30px;
+}
+.see-more {
+  padding: 13px 55px;
+  font: normal normal 700 12px/15px "Mulish", sans-serif;
+}
+.more-button-wrp {
+  text-align: center;
+}
+.brands {
+  text-align: center;
+  margin-top: 137px;
+  margin-bottom: 50px;
+}
+.brend-logo {
+  height: 63px;
+}
+.swiper-slide-visible,
+.swiper-slide-fully-visible {
+  margin: 0;
+  box-shadow: none;
+}
+.car {
+  width: 300px;
+}
+.news-header {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  font: normal normal 600 30px/50px "Montserrat", sans-serif;
+}
+.news-header,.custom-title,h3,.card-box p, .contact-title, .slide-car .swiper-wrapper .swiper-slide p{
+  color: rgba(89, 108, 114, 1);
+}
+.news,
+.date {
+  color: rgba(105, 118, 139, 1);
+}
+.news-title {
+  color: rgba(25, 25, 25, 1);
+  font: normal normal 500 16px/19.5px "Montserrat", sans-serif;
+}
+.date {
+  font: normal normal 500 12px/15.06px "Mulish", sans-serif;
+}
+.news-container-item figure{
+  max-width: 315px;
+  max-height: 228px;
+}
+.news-container-item div{
+  padding: 30px 43px 30px 20px;
+}
+.details-button:hover, 
+.about-button:hover, 
+.rent-it:hover {
+background-color: rgba(255, 192, 31, 1);
+border-color:rgba(255, 192, 31, 1) !important ;
+}
+.see-more:hover{
+  background-color: transparent !important;
+}
+.contact-title{
+  margin-top: 95px;
+  margin-bottom: 10px;
+color: rgba(89, 108, 114, 1);
+font: normal normal 700 30px/40px "Montserrat", sans-serif;
+}
+.contact_us-container-item input::placeholder{
+font-weight: 700;
+}
+.contact_us-container{
+  width: 40%
+}
+.contact_us-container{
+  padding-right: 27px;
+}
+.contact-sub-title{
+  margin-bottom: 30px;
+}
+.strong_car{
+  margin-top: 95px;
+}
+.news{
+  margin: 16px 0 53px;
+}
+.contact_us-container-item{
+  display: flex;
+  flex-direction: column;
+
+}
+.contact_us-container-item input{
+padding: 13px 0 12px 23px;
+width: calc((100% - 10px) / 2);
+margin-bottom: 20px;
+}
+.submit-button{
+  width: 100%;
+  padding: 13px 221px;
+  margin-top: 9px;
+  border-color: rgba(255, 192, 31, 1);
+}
+.exporter-container{
+  position: absolute;
+  left: 648px;
+  bottom: 201px;
+}
+#contact_us-container{
+  position: relative;
+  margin-top: 262px;
+  padding-bottom:94px ;
+  background-color: rgba(239, 239, 239, 1);
+}
+.ceo-message-container{
+  gap: 10px;
+}
+.contact-sub-title{
+font: normal normal 400 14px/21px "Mulish", sans-serif;
+}
+.ceo-massege{
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.ceo-message-container *{
+  margin: 0;
+}
+.excavator-image{
+  width: 677px;
+height: 461px;
+}
+.ceo-message-container p{
+  margin-right: 140px;
+}
+.logo h1{
+  color: rgba(89, 108, 114, 1);
+  margin-right: 186px;
+font: normal normal 700 57px/70px "Montserrat", sans-serif;
+}
+.footer-company_logo{
+  display: none;
+}
+.footer {
+  justify-content: space-between;
+}
+footer .address_icon{
+  width: 22.71px;
+  height: 22px;
+  min-width: 22.71px;
+  min-height: 18.46px;
+}
+footer {
+  background-image: linear-gradient(
+    -87.44deg,
+    #fffbf4,
+   #fdfbff,
+   #fff8e5
+  );
+  padding-bottom: 30px;
+}
+.contact-container{
+  padding: 80px 171px 80px 60px;
+}
+.contact-left{
+  gap: 18px;
+}
+.contact-right{
+  margin-right: 106px;
+  margin-left: 80px;
+  gap: 19px;
+}
+.working-hours{
+  gap: 28px;
+}
+.social-media-icon{
+  gap: 37px;
+}
+.brands-backround{
+  background-image: url(../image/Vector\ \(5\).svg);
+  background-position: -22px 2px;
+  background-repeat: no-repeat;
+}
+.about-container h1{
+color: rgba(89, 108, 114, 1);
+font: normal normal 700 80px/97.52px "Montserrat", sans-serif;
+}
+.about-container span{
+font: normal normal 500 20px/25.1px "Mulish", sans-serif;
+color: rgba(255, 192, 31, 1);
+}
+.about-container{
+margin: 26px auto 80px;
+text-align: center;
+  width: 586px;
+}
+.img-car-technique figure{
+  padding: 18px 36px;
+  box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+  height: 461px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+.link p a{
+font: normal normal 500 12px/15.06px "Mulish", sans-serif;
+}
+.about-body{
+  background-image: 
+  url(../image/Ellipse\ 11.svg),
+  url(../image/Ellipse\ 12.svg),
+  url(../image/Ellipse\ 9.svg),
+  url(../image/Ellipse\ 13.svg),
+  url(../image/Ellipse\ 10.png),
+  url(../image/Ellipse\ 14.svg)
+  ;
+  background-repeat: no-repeat;
+  background-position: 60px 180px,
+  60px 264px,
+60px 412px,
+1200px 151px,
+1200px 287px,
+1323px 373px
+  ;
+}
+.asd{
+  width: 315px;
+  padding: 20px;
+}
+.techniques-new-site{
+  display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+.techniques-new-site-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 140px;
+}
+.car-name-container{
+  display: flex;
+  margin: 60px 0 100px;
+  justify-content: space-between;
+}
+.name:hover{
+  background-color: rgba(255, 192, 31, 1);
+  border-radius: 30px;
+  border-color: rgba(255, 192, 31, 1);
+}
+.name{
+  padding: 13px 42px;
+  white-space: nowrap;
+  font: normal normal 700 12px/15px "Mulish", sans-serif;
+}
+.techniques-new-site-container  .sub-title{
+  margin: 2px 0 10px;
+}
+.techniques-new-site-container .box-wrp{
+  margin: 30px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.form-title {
+  font: normal normal 500 30px/36.57px "Mulish", sans-serif;
+color: rgba(89, 108, 114, 1);
+margin-bottom: 56px;
+}
+.write-to-us{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+.contact-info-two{
+  margin: 0 64px 140px 0;
+}
+.form-group input{
+  width: 315px;
+  padding: 12px 0 13px 23px;
+  margin-bottom: 20px;
+}
+.form-group input:nth-child(2n+1){
+  margin-right: 20px;
+}
+.form-textarea{
+  width: 650px;
+  height: 127px;
+  resize: none;
+  padding-top: 12px;
+  padding-left: 23px;
+  margin-bottom: 30px;
+}
+.form-textarea::placeholder{
+  font: normal normal 400 12px/15px "Mulish", sans-serif;
+color: rgba(53, 53, 53, 1);
+}
+.form-submit-button{
+  Width:650px;
+Height:40px;
+background-color: rgba(255, 192, 31, 1);
+border-width:0 ;
+}
+.contact-info-two{
+  box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+background-color: rgba(255, 255, 255, 1);
+padding: 74px 44px 76px 63px;
+margin: 0 64px 140px 0;
+}
+.contact-info-title{
+  margin-bottom: 58px;
+  text-align: center;
+  color: rgba(89, 108, 114, 1);
+ font: normal normal 700 30px/40px "Montserrat", sans-serif;
+}
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.contact-details p,.contact-details a{
+  color: rgba(105, 118, 139, 1);
+  font: normal normal 400 16px/20px "Mulish", sans-serif;
+}
+.contact-details div{
+  display: flex;
+  gap: 20px;
+}
+.contact-main{
+  background-image: url(../image/Vector\ \(7\).svg),
+  url(../image/Ellipse\ 8\ \(1\).svg),
+  url(../image/Ellipse\ 9\ \(1\).svg),
+  url(../image/Ellipse\ 10\ \(1\).svg)
+  ;
+  background-repeat: no-repeat;
+  background-position: 0 45px,
+  1270px 341px,
+  1150px 486px,
+  1356px 298px
+  ;
+}
+h6{
+color: rgba(104, 104, 104, 1);
+font: normal normal 400 14px/17.57px "Mulish", sans-serif;
+}
+.news-main{
+  background-image: url(../image/Vector\ \(7\).svg);
+  background-repeat: no-repeat;
+  background-position: 0 45px;
+}
+.news-main .ceo-massege .excavator-image{
+  object-fit: contain;
+  width: 668px;
+height: 446px;
+}
+.tech-main h3{
+  margin-top: 56px;
+  text-align: center;
+}
+.accordion-button:not(.collapsed){
+  background-color: transparent;
+}
+.accordion-item{
+  border:1px solid ;
+  border-width: 0px;
+}
+/* .accordion-header{
+  font-family: "Montserrat";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+} */
+ .accordion-item h2 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.accordion{
+  max-width: 1037px;
+  margin: 0 auto;
+  --bs-accordion-active-bg: 0;
+  --bs-accordion-btn-padding-x:0;
+  box-shadow: 0;
+  --bs-accordion-active-color: 0;
+  margin-bottom: 80px;
+}
+.accordion-body{
+  padding: 0;
+  color: rgba(105, 118, 139, 1);
+  font: normal normal 400 14px/21px "Mulish", sans-serif;
+margin: 16px 0;
+}
+.accordion-button::after{
+background-image: url(../image/Group.svg);
+background-size: 12px;
+}
+.accordion-button:not(.collapsed)::after{
+  background-size: 20px;
+  background-image: url(../image/Group\ \(1\).svg);
+}
+.accordion-button{
+  border-radius: 0;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+ padding-bottom: 16px;
+}
+.rental-terms-images-text{
+  display: flex;
+gap: 81px;
+}
+.rental-image-box-two{
+  /* width: 837px; */
+height: 558px;
+padding: 18px;
+
+}
+.rental-image-box{
+  width: 420px;
+height: 630px;
+padding: 18px;
+}
+.rental-terms-container{
+  margin-top: 68px;
+  margin-bottom: 120px;
+}
+.rental-terms-text{
+  text-align: justify;
+}
+.rental-section h2{
+  margin-top: 92px;
+  margin-bottom: 119px;
+}
+.question{
+margin-bottom: 50px;
+text-align: center;
+}
+.form-submit-button:hover{
+  border: 1px solid rgba(53, 53, 53, 1)
+}
+.news-name-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 140px;
+}
+.news-name{
+  display: flex;
+  gap: 20px;
+}
+.news-card figure{
+  width: 315px;
+height: 274px;
+}
+.news-card div p{
+font: normal normal 600 25px/30.48px "Montserrat", sans-serif;
+color: rgba(89, 108, 114, 1);
+}
+.news-card div{
+  padding: 30px;
+}
+.news-card{
+  box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+  background-color: rgba(255, 255, 255, 1);
+
+}
+.techniques1{
+  display: none;
+}
+.news_button{
+  display: none;
+}
+@media (max-width:790px){
+  .company_logo{
+    width: 123px;
+height: 27.43px;
+  }
+  .header-second-section_item{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+  .header_address {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: rgba(255, 192, 31, 1);
+  }
+  .header_adress_phone-number {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(53, 53, 53, 1);
+    white-space: wrap;
+  }
+  .address_logo {
+    height: 14px;
+    width: 15px;
+  }
+  .address_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+  }
+  .social-media-logo {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .header-second-section {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
+  }
+  .menu-icon .line {
+    height: 7px;
+  }
+  .language {
+    display: none;
+  }
+  .company_logo {
+    height: 27px;
+  }
+  .header-second-section_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  nav li a {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: none;
+    color: rgba(53, 53, 53, 1);
+  }
+  nav {
+    display: none;
+    position: relative;
+    top: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 54px;
+  }
+  /* header end */
+  /* the first part of the main-start */
+  
+  .custom-title {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 7px;
+  }
+  .title-description {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .details {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(53, 53, 53, 1);
+    font-family: " Mulish";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.06px;
+    text-align: left;
+    padding: 13px 55px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+.languages{
+  display: none;
+}
+.excavator-image{
+  padding: 0;
+  width: 100%;
+}
+.container .text{
+  position: absolute;
+  width: 350px;
+height: 262px;
+top: 407px;
+left: 20px;
+max-width: 100%;
+}
+.global-padding{
+  padding: 0;
+}
+.custom-title{
+  color: rgba(255, 255, 255, 1);
+font: normal normal 700 30px/40px "Montserrat", sans-serif;
+}
+.image figure{
+  padding: 0;
+  height: 597px;
+}
+.custom-title-description{
+color: rgba(255, 255, 255, 1);
+font: normal normal 400 14px/21px "Mulish" sans-serif;
+}
+.details-button{
+  padding: 12px 51px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(53, 53, 53, 1);
+}
+.category{
+  padding: 80px 20px 50px;
+  height: 623px;
+}
+.card-box p{
+font-size: 18px;
+line-height: 21.94px;
+padding: 31px 19px;
+}
+.card-box figure{
+  display: none;
+}
+.card-box{
+  flex-direction: row;
+}
+.category-container-item{
+  flex-direction: column;
+  gap: 20px;
+}
+.category-container{
+  flex-direction: column;
+  gap: 20px;
+}
+.card-box div{
+  width: calc((100% - 20px) / 2);
+}
+.aside-strong-car, .new{
+  display: none;
+}
+.new-car-container{
+  width: 100%;
+
+}
+.main-text{
+  position: absolute;
+  padding: 285px 20px 20px;
+}
+.about-button{
+  background-color: rgba(255, 255, 255, 1);}
+  .techniques{
+    display: none;
+  }
+  .techniques1{
+    display: block;
+    padding: 80px 20px;
+  }
+.swiper-slide1 div{
+  padding: 20px 20px 30px;
+}
+.rent-it{
+ width: 310px;
+}
+.swiper1{
+  margin-top: 124px;
+  margin-bottom: 30px;
+}
+.swiper-wrapper1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.brands{
+  margin-top: 0;
+
+}
+.mySwiper{
+  height: 36px;
+}
+.mySwiper .swiper-wrapper .logo-slide figure{
+  height: 100%;
+}
+.news-header {
+  margin-top: 100px;}
+  .news-container{
+    flex-direction: column;
+  }
+  .news-container-item div{
+    padding: 30px 20px;
+  }
+  .news-container-item figure {
+    max-width: 350px;
+    max-height: 228px;
+}
+.padding{
+  padding: 0 20px 80px;
+}
+.news_button{
+  display: block;
+  width: 350px;
+  padding: 13px;
+  background-color: rgba(255, 192, 31, 1);
+  border-color: rgba(255, 192, 31, 1);
+}
+.submit-button{
+  padding: 13px 154px;
+  width: 100%;
+}
+.ceo-message-container p{
+  margin: 0;
+}
+.ceo-message-container{
+  position: absolute;
+  top: 243px;
+padding: 0 20px;
+}
+.logo h1{
+  display: none;
+}
+.ceo-massege{
+  position: relative;
+}
+.footer-company_logo{
+  display: block;
+  width: 185px;
+height: 41.25px;
+}
+.contact-container{
+  flex-direction: column;
+  padding: 75px 20px;
+}
+footer{
+  padding: 0;
+}
+.footer{
+  border-top: 1px solid rgba(255, 192, 31, 0.5);
+  padding: 30px 20px;
+}
+.contact-info{
+  margin: 80px 0 50px;
+}
+.contact-right{
+  margin-left: 66px;
+}
+.contact_us-container{
+  width: 100%;
+}
+.contact_us-container-item div input{
+width: 100%;
+}
+#contact_us-container{
+  padding: 80px 20px;
+  margin: 0;
+}
+.contact-title{
+  margin-top: 0;
+}
+.header-second-section{
+  padding: 20px;
+  justify-content:normal;
+}
+.header_address{
+  padding: 12px 20px;
+}
+.social-media-logo figure img{
+object-fit: contain;
+}
+.menu-icon{
+  position: relative;
+  left: 156px;
+  bottom: 6px;
+}
+}
